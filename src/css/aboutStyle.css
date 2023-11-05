@@ -1,0 +1,73 @@
+section{
+    display: grid;
+    justify-content: center;
+    background-color: #282c34;
+    color: #fff;
+}
+
+.card-skills{
+    background-color: #282c34;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    border: solid 2px #61dafb;
+    width: 800px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card-about{
+    background-color: #282c34;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    border: solid 2px #61dafb;
+    width: 800px;
+    margin-bottom: 40px;
+    text-align: start;
+
+}
+
+.card-education {
+    background-color: #282c34;
+    border-radius: 10px;
+    padding: 20px;
+    border: solid 2px #61dafb;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    width: 800px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.about-section, .education-section {
+    width: auto;
+    margin: 20px;
+}
+
+.about-section h1, .education-section h1 {
+    font-size: 24px;
+    color: #61dafb;
+}
+
+.about-section p, .education-section p {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.education-section h4 {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.education-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.education-section li {
+    margin-top: 10px;
+    font-size: 16px;
+}

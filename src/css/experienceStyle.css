@@ -1,0 +1,42 @@
+.exp-content{
+    display: grid;
+    justify-content: center;
+    background-color: #282c34;
+    color: #fff;
+}
+
+.intern-section{
+    background-color: #1b144b;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    border: solid 2px #21c93d;
+    width: 800px;
+    margin-bottom: 40px;
+    display: block;
+    text-align: start;
+}
+
+.img-logo{
+    display: flex;
+    justify-content: center;
+}
+
+.img-logo img{
+    height: 300px;
+}
+
+.intern-section h1{
+    font-size: 24px;
+    color: #21c93d;
+}
+
+.intern-section h4{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.intern-section p{
+    margin-top: 20px;
+    font-size: 16px;
+}
