@@ -2,7 +2,7 @@ import "../css/navbarStyle.css";
 import React, { useState } from "react";
 import TypewriterEffect from "typewriter-effect";
 import ContactModal from "./contactmodal";
-
+import { Link } from "react-router-dom";
 
 
 const NavbarComponent = () => {
@@ -28,16 +28,19 @@ const NavbarComponent = () => {
         </div>
         <ul className="nav-links">
           <li>
-            <a href="#app-section">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="#about-section">About</a>
+            <Link to="/about">About</Link>
           </li>
           <li>
-            <a href="#exp-section">Experience</a>
+            <Link to="/experience">Experience</Link>
           </li>
           <li>
-            <a href="/#" onClick={openModal}>Contact</a>
+            <Link to="/projects">Projects</Link>
+          </li>
+          <li>
+            <Link onClick={openModal}>Contact</Link>
           </li>
         </ul>
       </nav>

@@ -4,7 +4,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5); 
+  background: rgba(0, 0, 0, 0.5);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -22,60 +22,57 @@
   text-align: start;
 }
 
-.modal-content h2{
-    color: #61dafb;
+.modal-content h2 {
+  color: #61dafb;
 }
 
-.close-modal{
-    display: flex;
-    justify-content: end;
+.close-modal {
+  display: flex;
+  justify-content: flex-end;
 }
 
-.modal-address{
-    display: flex;
-    justify-content: flex-start;
-    margin-bottom: 5px;
-    margin-top: 10px;
-}
-
-.modal-address p {
-    margin-left: 5px;
-}
-
-.modal-phone {
-    display: flex;
-    justify-content: flex-start;
-    margin-bottom: 5px;
-    margin-top: 10px;
-}
-
-.modal-phone p {
-    margin-left: 5px;
-}
-
+.modal-address,
+.modal-phone,
 .modal-email {
-    display: flex;
-    justify-content: flex-start;
-    margin-bottom: 5px;
-    margin-top: 10px;
+  display: flex;
+  justify-content: flex-start;
+  margin: 10px 0;
 }
 
+.modal-address p,
+.modal-phone p,
 .modal-email p {
-    margin-left: 5px;
+  margin-left: 5px;
 }
 
-.modal-content h2{
-    margin-top: 20px;
-    margin-bottom: 20px;
+.modal-content h2 {
+  margin: 20px 0;
 }
 
 .modal-close {
+  background: none;
+  border: none;
+  position: relative;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
 
-    background: none;
-    border: none;
-    position: relative; 
-    top: 0;
-    left: 0; 
-    cursor: pointer;
+@media screen and (max-width: 768px) {
+  .modal-overlay {
+    justify-content: center;
   }
-  
+
+  .modal-content {
+    max-width: 80%;
+  }
+
+  .modal-content p {
+    font-size: 16px;
+  }
+
+  .modal-close {
+    top: 10px;
+    right: 10px;
+  }
+}

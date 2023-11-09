@@ -1,0 +1,82 @@
+.project-section,
+.workspace-section {
+  display: flex;
+  justify-content: center;
+  background-color: #282c34;
+  color: #fff;
+  margin: 40px;
+}
+
+.workspace-section{
+    margin-bottom: 60px;
+}
+
+.card-project,
+.card-workspace {
+  background-color: #282c34;
+  color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  border: solid 2px #61dafb;
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 40px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+}
+
+.pic1-div,
+.workspace-div {
+  display: grid;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.card-project h1,
+.card-workspace h1 {
+  color: #61dafb;
+  margin-bottom: 20px;
+}
+
+.card-project h2,
+.card-workspace h2 {
+  color: #61dafb;
+}
+
+.card-project h4,
+.card-workspace h4 {
+  margin-top: 20px;
+}
+
+.pic1-div img,
+.workspace-div img {
+  max-width: 710px;
+  max-height: 500px;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+@media (max-width: 768px) {
+
+  .project-section,
+.workspace-section{
+  margin: 20px;
+}
+
+  .card-project,
+  .card-workspace {
+    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .pic1-div img,
+  .workspace-div img {
+    max-width: 100%;
+    max-height: auto;
+  }
+}

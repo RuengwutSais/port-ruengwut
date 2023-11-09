@@ -7,9 +7,7 @@ import "./App.css";
 import React from "react";
 import TypewriterEffect from "typewriter-effect";
 import NavbarComponent from "./component/navbar";
-import AboutMeComponent from "./component/about";
 import FooterComponent from "./component/footer";
-import ExperienceComponent from "./component/experience";
 
 function App() {
   return (
@@ -35,14 +33,18 @@ function App() {
         <div className="framework">
           <p>Framework that I'm using</p>
           <div className="framework-logo">
-            <img src={bootstrap} className="bootstrap-logo" alt="bootstrap" />
+            <a href="https://getbootstrap.com/" target="_blank" rel="noreferrer" >
+            <img src={bootstrap} className="bootstrap-logo" alt="bootstrap"/>
+            </a>
+            <a href="https://react.dev/" target="_blank" rel="noreferrer">
             <img src={react} className="react-logo" alt="react" />
+            </a>
+            <a href="https://vuejs.org/" target="_blank" rel="noreferrer">
             <img src={vue} className="vue-logo" alt="vue" />
+            </a>
           </div>
         </div>
       </header>
-      <AboutMeComponent />
-      <ExperienceComponent />
       <FooterComponent />
     </div>
   );

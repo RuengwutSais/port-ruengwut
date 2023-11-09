@@ -34,7 +34,7 @@ const ContactModal = ({ isOpen, content, onClose }) => {
             <strong>Phone</strong>
           </p>
         </div>
-        <p>(66) 098-848-2480</p>
+        <p>(+66) 098-848-2480</p>
         <div className="modal-address">
           <FontAwesomeIcon icon={faHouse} />
           <p>
