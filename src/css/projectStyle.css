@@ -7,8 +7,8 @@
   margin: 40px;
 }
 
-.workspace-section{
-    margin-bottom: 60px;
+.workspace-section {
+  margin-bottom: 60px;
 }
 
 .card-project,
@@ -52,20 +52,53 @@
   margin-top: 20px;
 }
 
+.miweater-div {
+  position: relative;
+  display: inline-block;
+}
+
 .pic1-div img,
 .workspace-div img {
   max-width: 710px;
   max-height: 500px;
   border-radius: 1rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  transition: 1s ease;
+  display: block;
+}
+
+.workspace-div img:hover {
+  -webkit-filter: blur(3px);
+  transition: 1s ease;
+}
+
+.miweater-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  opacity: 0;
+  transition: 0.6s ease;
+}
+
+.workspace-div:hover .miweater-overlay {
+  opacity: 1;
+  transition: 0.6s ease;
 }
 
 @media (max-width: 768px) {
-
   .project-section,
-.workspace-section{
-  margin: 20px;
-}
+  .workspace-section {
+    margin: 20px;
+  }
 
   .card-project,
   .card-workspace {
@@ -79,4 +112,5 @@
     max-width: 100%;
     max-height: auto;
   }
+  
 }

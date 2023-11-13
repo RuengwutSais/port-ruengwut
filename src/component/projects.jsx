@@ -34,18 +34,29 @@ const ProjectComponent = () => {
         <div className="card-workspace">
           <div className="workspace-div">
             <h1>Workspace</h1>
-            <img src={miWeather} alt="workspace-1" />
+            <div className="miweater-div">
+              <a
+                href="https://miweather-workspace.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={miWeather} alt="workspace-1" />
+                <div className="miweater-overlay">
+                  <h1>Click to view!</h1>
+                </div>
+              </a>
+            </div>
           </div>
           <h2>MiWeather</h2>
           <h5>2023</h5>
           <h4>Overview:</h4>
-          <p>An practice workspace of a weather dashboard by calling an API from OpenWeather.com</p>
-          <h4>Tools:</h4>
           <p>
-            HTML, CSS, JavaScript, vue.js, Bootstrap
+            An practice workspace of a weather dashboard by calling an API from
+            OpenWeather.com
           </p>
+          <h4>Tools:</h4>
+          <p>HTML, CSS, JavaScript, vue.js, Bootstrap, FontAwesome</p>
         </div>
-
       </div>
       <FooterComponent />
     </div>
