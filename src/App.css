@@ -140,6 +140,7 @@ video{
 @media screen and (max-width: 768px) {
   .App-header {
     min-height: 60vh;
+    font-size: calc(8px + 2vmin);
   }
 
   video{
