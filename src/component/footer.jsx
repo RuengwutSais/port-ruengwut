@@ -12,22 +12,22 @@ const FooterComponent = () => {
       <ul className="footer-links">
         <li>
           <a href="https://www.facebook.com/FormRuengwut" target="_blank" rel="noreferrer">
-            <FontAwesomeIcon icon={faFacebook} style={{width: "30px",height: "30px",color:"#fff"}}/>
+            <FontAwesomeIcon icon={faFacebook} className="github-icon"/>
           </a>
         </li>
         <li>
           <a href="https://www.instagram.com/ruengwut.sais/" target="_blank" rel="noreferrer">
-            <FontAwesomeIcon icon={faInstagram} style={{width: "30px",height: "30px",color:"#fff"}}/>
+            <FontAwesomeIcon icon={faInstagram} className="github-icon"/>
           </a>
         </li>
         <li>
           <a href="https://github.com/RuengwutSais" target="_blank" rel="noreferrer">
-            <FontAwesomeIcon icon={faGithub} style={{width: "30px",height: "30px",color:"#fff"}}/>
+            <FontAwesomeIcon icon={faGithub} className="github-icon"/>
           </a>
         </li>
         <li>
           <a href="https://www.linkedin.com/in/ruengwut-saisawat-7535ab284/" target="_blank" rel="noreferrer">
-            <FontAwesomeIcon icon={faLinkedin} style={{width: "30px",height: "30px",color:"#fff"}}/>
+            <FontAwesomeIcon icon={faLinkedin} className="github-icon"/>
           </a>
         </li>
       </ul>

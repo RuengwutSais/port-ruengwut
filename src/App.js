@@ -8,14 +8,14 @@ import React from "react";
 import TypewriterEffect from "typewriter-effect";
 import NavbarComponent from "./component/navbar";
 import FooterComponent from "./component/footer";
-import VideoBG from "./assets/video/riding-pokemon.mp4";
+import VideoBG from "./assets/video/mega-rayquaza.mp4";
 
 function App() {
   return (
     <div className="App" id="app-section">
       <NavbarComponent />
       <div className="App-header">
-      <video autoPlay loop muted src={VideoBG} />
+        <video autoPlay loop muted src={VideoBG} />
         {/* <img src={profile} className="main-logo" alt="main" /> */}
         <div className="text-overlay">
           <TypewriterEffect

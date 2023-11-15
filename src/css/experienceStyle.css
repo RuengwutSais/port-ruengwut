@@ -1,17 +1,17 @@
 .exp-content {
   display: flex;
   justify-content: center;
-  background-color: #282c34;
   color: #fff;
-  margin: 40px;
+  margin: 0;
+  padding: 40px;
 }
 
 .intern-section {
-  background-color: #1b144b;
+  background-color: #282c34;
   border-radius: 10px;
-  padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
-  border: solid 2px #21c93d;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: solid 2px #282c34;
   max-width: 800px;
   margin: 0 auto;
   margin-bottom: 40px;
@@ -24,13 +24,17 @@
 }
 
 .img-logo img {
-  max-width: 40%;
+  max-width: 50%;
   height: auto;
+  margin-bottom: 30px;
+  border-radius: 15rem;
+  border: solid 2px #50b955;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .intern-section h1 {
   font-size: 24px;
-  color: #21c93d;
+  color: #61dafb;
 }
 
 .intern-section h4 {
@@ -45,13 +49,12 @@
 
 @media (max-width: 768px) {
   .exp-content {
+    padding: 20px;
     max-width: 100%;
-    padding: 10px;
-    margin: 10px;
   }
 
   .intern-section {
-    padding: 10px;
+    padding: 30px;
     max-width: 100%;
     margin-bottom: 20px;
   }
@@ -66,5 +69,9 @@
 
   .intern-section p {
     font-size: 14px;
+  }
+
+  .img-logo img {
+    max-width: 80%;
   }
 }

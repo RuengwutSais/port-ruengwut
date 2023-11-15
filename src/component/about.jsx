@@ -1,12 +1,30 @@
 import "../css/aboutStyle.css";
 import NavbarComponent from "./navbar";
 import FooterComponent from "./footer";
+import profile from "../logo/Ruengwut.jpg";
+
 
 const AnoutMeComponent = () => {
+  const containerStyle = {
+    background: `
+      radial-gradient(50% 50% at 100% 0, #61dafb 0% 5%, #5acaf0 6% 15%, #61dafb 16% 25%, #5acaf0 26% 35%, #61dafb 36% 45%,
+      #5acaf0 46% 55%, #61dafb 56% 65%, #5acaf0 66% 75%, #61dafb 76% 85%, #5acaf0 86% 95%, #0000 96%),
+      radial-gradient(50% 50% at 0 100%, #61dafb 0% 5%, #5acaf0 6% 15%, #61dafb 16% 25%, #5acaf0 26% 35%, #61dafb 36% 45%,
+      #5acaf0 46% 55%, #61dafb 56% 65%, #5acaf0 66% 75%, #61dafb 76% 85%, #5acaf0 86% 95%, #0000 96%),
+      radial-gradient(50% 50%, #61dafb 0% 5%, #5acaf0 6% 15%, #61dafb 16% 25%, #5acaf0 26% 35%, #61dafb 36% 45%,
+      #5acaf0 46% 55%, #61dafb 56% 65%, #5acaf0 66% 75%, #61dafb 76% 85%, #5acaf0 86% 95%, #0000 96%),
+      radial-gradient(50% 50%, #61dafb 0% 5%, #5acaf0 6% 15%, #61dafb 16% 25%, #5acaf0 26% 35%, #61dafb 36% 45%,
+      #5acaf0 46% 55%, #61dafb 56% 65%, #5acaf0 66% 75%, #61dafb 76% 85%, #5acaf0 86% 95%, #0000 96%) 32px 32px`,
+    backgroundSize: '64px 64px',
+    backgroundColor: '#61dafb',
+  };
   return (
     <div>
       <NavbarComponent />
-      <div className="about-section">
+      <div className="about-section" style={containerStyle}>
+        <div className="img-profile">
+        <img src={profile} className="main-logo" alt="main" />
+        </div>
         <div className="skill-section">
           <div className="card-skills">
             <ul>
