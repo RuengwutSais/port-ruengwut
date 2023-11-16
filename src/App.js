@@ -16,7 +16,6 @@ function App() {
       <NavbarComponent />
       <div className="App-header">
         <video autoPlay loop muted src={VideoBG} />
-        {/* <img src={profile} className="main-logo" alt="main" /> */}
         <div className="text-overlay">
           <TypewriterEffect
             options={{
@@ -27,7 +26,7 @@ function App() {
           <div className="position">
             <TypewriterEffect
               options={{
-                strings: ["I'm a Front End Developer", "I'm a UX/UI Designer"],
+                strings: ["I'm a Front End Developer", "I'm an UX/UI Designer"],
                 autoStart: true,
                 loop: true,
               }}
