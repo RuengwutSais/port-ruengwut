@@ -8,7 +8,7 @@ import React from "react";
 import TypewriterEffect from "typewriter-effect";
 import NavbarComponent from "./component/navbar";
 import FooterComponent from "./component/footer";
-import VideoBG from "./assets/video/mega-rayquaza.mp4";
+import VideoBG from "./assets/video/riding-pokemon.mp4";
 
 function App() {
   return (

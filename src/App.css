@@ -57,7 +57,7 @@ video{
   width: 40%;
   height: 35%;
   border-radius: 10px;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.6);
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   border: 2px solid #fff;
   object-fit: cover;
@@ -165,5 +165,15 @@ video{
   .framework-logo img {
     height: 38px;
     width: 38px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .card-skills {
+    width: 100%;
+  }
+
+  .text-overlay {
+    width: 80%;
   }
 }
