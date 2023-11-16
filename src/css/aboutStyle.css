@@ -82,6 +82,7 @@
   .card-education {
     max-width: 100%;
     margin-bottom: 20px;
+    padding: 10px;
   }
 
   .img-profile .main-logo {
@@ -93,7 +94,7 @@
   .about-section,
   .education-section {
     margin: 0;
-    padding: 20px;
+    padding: 10px;
   }
 
   .about-section h1,

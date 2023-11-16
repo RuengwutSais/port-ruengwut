@@ -105,8 +105,12 @@
 
   .card-project,
   .card-workspace {
-    padding: 10px;
+    padding: 20px;
     font-size: 14px;
+  }
+
+  .workspace-section {
+    margin-bottom: 0;
   }
 
   .pic1-div img,

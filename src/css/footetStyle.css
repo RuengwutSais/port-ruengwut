@@ -23,6 +23,7 @@
   height: 30px;
   width: 30px;
   color: #fff;
+  transition: transform 0.2s ease-in-out;
 }
 
 .github-icon:hover {

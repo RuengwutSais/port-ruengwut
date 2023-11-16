@@ -46,7 +46,7 @@ function App() {
                   alt="bootstrap"
                 />
               </a>
-              <a href="https://react.dev/" target="_blank" rel="noreferrer">
+              <a className="react-logo" href="https://react.dev/" target="_blank" rel="noreferrer">
                 <img src={react} className="react-logo" alt="react" />
               </a>
               <a href="https://vuejs.org/" target="_blank" rel="noreferrer">
