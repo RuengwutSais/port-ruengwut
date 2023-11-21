@@ -1,5 +1,5 @@
 .footer-content {
-  background-color: #282c34;
+  background-color: #3c3836;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -8,6 +8,7 @@
   right: 0;
   bottom: 0;
   left: 0;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px -10px 20px, rgba(0, 0, 0, 0.23) 0px -6px 6px;
 }
 
 .footer-links {
@@ -22,11 +23,11 @@
 .github-icon{
   height: 30px;
   width: 30px;
-  color: #fff;
+  color: #ebdbb2;
   transition: transform 0.2s ease-in-out;
 }
 
 .github-icon:hover {
   transform: scale(1.2); 
-  color: #61dafb;
+  color: #fe8019;
 }

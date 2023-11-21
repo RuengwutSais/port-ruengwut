@@ -17,7 +17,7 @@ const ContactModal = ({ isOpen, content, onClose }) => {
       <div className="modal-content">
         <div className="close-modal">
           <button className="modal-close" onClick={onClose}>
-            <FontAwesomeIcon icon={faCircleXmark} style={{width: "20px",height: "20px",color:"#61dafb"}} />
+            <FontAwesomeIcon icon={faCircleXmark} style={{width: "20px",height: "20px",color:"#fe8019"}} />
           </button>
         </div>
         <h2>Contact Information</h2>

@@ -2,7 +2,7 @@
 .education-section {
   display: grid;
   justify-content: center;
-  color: #fff;
+  color: #3c3836;
   width: auto;
   margin: 0;
   padding: 40px;
@@ -36,11 +36,10 @@
 .card-skills,
 .card-about,
 .card-education {
-  background-color: #282c34;
+  background-color: #ebdbb2;
   border-radius: 10px;
   padding: 20px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  border: 2px solid #282c34;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
   max-width: 800px;
   margin-bottom: 40px;
   display: flex;
@@ -52,13 +51,14 @@
 .about-section h1,
 .education-section h1 {
   font-size: 24px;
-  color: #61dafb;
+  color: #fe8019;
 }
 
 .about-section p,
 .education-section p {
   margin-top: 20px;
   font-size: 16px;
+  text-align: justify;
 }
 
 .education-section h4 {
