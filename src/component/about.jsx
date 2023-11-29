@@ -11,7 +11,7 @@ const AnoutMeComponent = () => {
       <NavbarComponent />
       <div className="about-section" style={backgroundStyles.container}>
         <div className="img-profile">
-        <img src={profile} className="main-logo" alt="main" />
+        <img src={profile} className="main-logo" alt="main" loading="lazy"/>
         </div>
         <div className="skill-section">
           <div className="card-skills">

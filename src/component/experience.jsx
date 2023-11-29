@@ -11,7 +11,7 @@ const ExperienceComponent = () => {
       <div className="exp-content" style={backgroundStyles.container}>
         <div className="intern-section">
           <div className="img-logo">
-            <img src={avalant} className="avalant-logo" alt="avalant" />
+            <img src={avalant} className="avalant-logo" alt="avalant" loading="lazy"/>
           </div>
           <h1>Experience</h1>
           <h4>Intern at Avalant Co.,Ltd.</h4>

@@ -15,7 +15,7 @@ const ProjectComponent = () => {
           <div className="card-project">
             <div className="pic1-div">
               <h1>Projects</h1>
-              <img src={rentCentral} alt="project-1" />
+              <img src={rentCentral} loading="lazy" alt="project-1" />
             </div>
             <h2>Web Application Residence Rent Center</h2>
             <h5>2022-2023</h5>
@@ -44,7 +44,7 @@ const ProjectComponent = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <img src={miWeather} alt="workspace-1" />
+                    <img src={miWeather} alt="workspace-1" loading="lazy" />
                     <div className="miweater-overlay">
                       <h1>Click to view!</h1>
                     </div>
@@ -70,7 +70,7 @@ const ProjectComponent = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <img src={filmpass} alt="workspace-1" />
+                    <img src={filmpass} alt="workspace-1" loading="lazy" />
                     <div className="miweater-overlay">
                       <h1>Click to view!</h1>
                     </div>
